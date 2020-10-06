@@ -5,7 +5,7 @@ print('Loading function')
 
 def main(event, context):
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": "With CI/CD in place",
         "input": event
     }
 

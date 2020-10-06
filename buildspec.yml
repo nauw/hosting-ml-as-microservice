@@ -34,12 +34,12 @@ phases:
 #       runtime: version
 #       runtime: version
     commands:
-      - echo pwd
+      - pwd
       - cd review-ml-api
-      - echo pwd
-      - echo whoami
+      - pwd
+      - whoami
       - chmod +x build.sh
-      - ./build.sh dev
+      - ./build.sh deploy dev
 
 #     finally:
 #       - command
