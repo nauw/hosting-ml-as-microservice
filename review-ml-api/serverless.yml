@@ -29,8 +29,8 @@ service: review-ml-api
 provider:
   name: aws
   runtime: python3.7
-  deploymentBucket: jetlab.deployment
-  deployementPrefix: serverless-ml
+ # deploymentBucket: jetlab.deployment
+ # deployementPrefix: serverless-ml
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'eu-west-1'}
 
