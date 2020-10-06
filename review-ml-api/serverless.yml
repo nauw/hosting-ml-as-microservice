@@ -20,9 +20,16 @@ service: review-ml-api
 # Check out our docs for more details
 frameworkVersion: '1'
 
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    #dockerImage: lambci/lambda:build-python3.6
+    dockerizePip: non-linux
+    invalidateCache: true
 provider:
   name: aws
-  runtime: python2.7
+  runtime: python3.7
   deploymentBucket: jetlab.deployment
   deployementPrefix: serverless-poly
   stage: ${opt:stage, 'dev'}
