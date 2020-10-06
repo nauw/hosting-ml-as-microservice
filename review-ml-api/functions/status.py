@@ -5,7 +5,7 @@ print('Loading function')
 
 def main(event, context):
     body = {
-        "message": "With CI/CD in place",
+        "message": "With CI/CD in place X attempt",
         "input": event
     }
 
