@@ -10,6 +10,7 @@ def main(event, context):
     }
 
     response = {
+        "contentType": "application/json",
         "statusCode": 200,
         "body": json.dumps(body)
     }
