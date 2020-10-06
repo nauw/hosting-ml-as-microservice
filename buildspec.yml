@@ -28,7 +28,7 @@ version: 0.2
 #   # build-graph:
         
 phases:
-#   install:
+   build:
 #     run-as: Linux-user-name
 #     runtime-versions:
 #       runtime: version
