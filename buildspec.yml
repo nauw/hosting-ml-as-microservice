@@ -34,6 +34,7 @@ phases:
 #       runtime: version
 #       runtime: version
     commands:
+      - echo pwd
       - cd review-ml-api
       - echo pwd
       - echo whoami
