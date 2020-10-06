@@ -81,5 +81,8 @@ functions:
     handler: functions/status.main
     events:
       - httpApi:
-          path: /get/status
+          path: /status
           method: get
+          response:
+            headers:
+              Content-Type: "'application/json'"
